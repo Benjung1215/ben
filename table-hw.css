@@ -1,0 +1,17 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  font-family: DFKai-sb;
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+  table-layout: fixed;
+  table-layout: auto;
+
+}
+thead, tbody{
+    vertical-align: middle;
+
+
+}
