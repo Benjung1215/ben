@@ -6,3 +6,13 @@ form{
     height: 100px;
     width: 100px;
 }
+
+.radius{
+    padding: 10px 0;
+    background-color: #ffa;
+}
+
+.lunches{
+    padding: 10px 0;
+    background-color: #faa;
+}
