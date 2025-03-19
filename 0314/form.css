@@ -16,3 +16,20 @@ form{
     padding: 10px 0;
     background-color: #faa;
 }
+
+progress::-webkit-progress-bar{
+    background-color: #ffa;
+}
+
+progress::-webkit-progress-value{
+    background-color: blue;
+}
+
+progress{
+background-color: #faa;
+}
+
+details {
+    width: 50%;
+    margin: 20px auto;
+}
