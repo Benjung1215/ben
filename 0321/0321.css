@@ -1,0 +1,79 @@
+.card {
+  background-color: rgb(0, 217, 255);
+  width: 50%;
+  max-width: 300px;
+  min-width: 100px;
+  height: 50%;
+  max-height: 200px;
+  min-height: 100px;
+  overflow: hidden;
+  margin: 100px auto;
+  padding: 10px;
+  border-width: 10px 5px 10px 3px;
+  border-color: blue yellow violet purple;
+  border-style: double;
+  border: 10px double gray;
+}
+
+.item {
+  background-color: rgb(145, 255, 0);
+  width: 50%;
+  padding: 20px 0;
+  margin: 100px 25% 0 25%;
+}
+
+.topic {
+  background-color: rgb(42, 151, 165);
+  width: 50%;
+  font-size: 2rem;
+}
+
+.item2 {
+  background-color: bisque;
+  width: 40vmax;
+  height: 40vmax;
+}
+
+.outside {
+  font-size: 0;
+}
+
+.inside {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  font-size: 16px;
+}
+
+.box {
+  width: 186px;
+  height: 186px;
+  background-color: #faa;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #afa;
+  float: left;
+  overflow: hidden;
+}
+
+.bottle {
+  width: 75px;
+}
+
+.bgc {
+  width: 1000px;
+  overflow: hidden;
+  background-color: darkgray;
+}
+
+.out-box {
+  border: 20px solid #faa;
+}
+
+.google-font {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-style: italic;
+}
