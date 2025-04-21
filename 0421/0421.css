@@ -1,0 +1,57 @@
+section {
+    background-color: #aaa;
+    margin: 100px auto;
+    max-width: 960px;
+}
+
+.out-box {
+  width: 100%;
+  height: 300px;
+  max-width: 1000px;
+  background-color: #aaa;
+  margin: 100px auto;
+}
+
+.box {
+  width: calc(50% - 10px);
+  height: 300px;
+  float: left;
+}
+
+.box:first-of-type {
+  background-color: #faa;
+}
+
+.box:last-of-type {
+  background-color: #afa;
+}
+
+.box + .box {
+  margin-left: 20px;
+}
+
+.aspect-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.padding-img {
+  position: relative;
+  background-color: #fa0;
+  padding-bottom: 75%;
+}
+
+.padding-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
